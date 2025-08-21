@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 /* Smooth card hover */
-.card-hover{ @apply transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-lg; }
-.btn{ @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium; }
-.btn-primary{ @apply bg-brand-600 text-white hover:bg-brand-700; }
-.btn-outline{ @apply border border-brand-300 text-brand-700 bg-white hover:bg-brand-50; }
+.card-hover {
+  @apply transition-transform duration-200 ease-out hover:-translate-y-1 hover:shadow-lg;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium;
+}
+.btn-primary {
+  @apply bg-brand-600 text-white hover:bg-brand-700;
+}
+.btn-outline {
+  @apply border border-brand-300 text-brand-700 bg-white hover:bg-brand-50;
+}
