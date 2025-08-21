@@ -19,8 +19,9 @@ export default function CheckoutForm({ items, onClose }) {
       return;
     }
 
+    // 🆕 Added product id here
     const cartDetails = items
-      .map((it) => `${it.name} - ₹${it.price}`)
+      .map((it) => `🆔 ${it.id} | ${it.name} - ₹${it.price}`)
       .join("\n");
 
     const message = `🛍️ New Order Request\n
