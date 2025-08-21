@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
-import Header from './components/Header.js'
-import Hero from './components/Hero.js'
-import Filters from './components/Filters.js'
-import ProductCard from './components/ProductCard.js'
-import CartDrawer from './components/CartDrawer.js'
+import Header from './components/Header.jsx'
+import Hero from './components/Hero.jsx'
+import Filters from './components/Filters.jsx'
+import ProductCard from './components/ProductCard.jsx'
+import CartDrawer from './components/CartDrawer.jsx'
 import { products as all } from './data/products.js'
 
 export default function App(){
