@@ -2,10 +2,7 @@
   "name": "girls-thrift-store",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "preview": "vite preview",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -18,11 +15,9 @@
     "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.17",
-    "vite": "^5.4.2"
+    "tailwindcss": "^3.4.17"
   },
   "browserslist": {
     "production": [
