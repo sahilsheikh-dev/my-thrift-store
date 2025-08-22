@@ -33,9 +33,6 @@ export const products = [
     images: [
       "https://brune.in/cdn/shop/files/AB141DF4-2F47-4C63-AAA1-81F5BAFC2D17.jpg?v=1750880241&width=720",
       "https://brune.in/cdn/shop/files/A0AA54AC-4919-44B1-9AE2-49FC5A5D96AF.jpg?v=1750880241&width=720",
-      "https://brune.in/cdn/shop/files/D0899F4E-46ED-468A-A0D3-DC6F7971A36C.jpg?v=1749059886&width=720",
-      "https://brune.in/cdn/shop/files/6C5785BF-1948-49E6-A174-1AEBBF726075.jpg?v=1749059886&width=720",
-      "https://brune.in/cdn/shop/files/1A646EBA-AE2D-4EAB-9DAB-F0FAAD7EBFD5.jpg?v=1749059886&width=720",
     ],
   },
   {
